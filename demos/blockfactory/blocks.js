@@ -820,6 +820,45 @@ Blockly.Blocks['type_other'] = {
     this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=702');
   }
 };
+Blockly.Blocks['type_user'] = {
+  // Other user.
+  init: function() {
+    this.setColour(230);
+    this.appendDummyInput()
+        .appendField('user')
+    this.setOutput(true, 'Type');
+  }
+};
+
+Blockly.Blocks['type_case'] = {
+  // Other user.
+  init: function() {
+    this.setColour(230);
+    this.appendDummyInput()
+        .appendField('case')
+    this.setOutput(true, 'Type');
+  }
+};
+
+Blockly.Blocks['type_task'] = {
+  // Other user.
+  init: function() {
+    this.setColour(230);
+    this.appendDummyInput()
+        .appendField('task')
+    this.setOutput(true, 'Type');
+  }
+};
+
+Blockly.Blocks['type_field'] = {
+  // Other user.
+  init: function() {
+    this.setColour(230);
+    this.appendDummyInput()
+        .appendField('field')
+    this.setOutput(true, 'Type');
+  }
+};
 
 Blockly.Blocks['colour_hue'] = {
   // Set the colour of the block.
