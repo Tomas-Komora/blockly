@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Color",
   catVariables: "Variàbij",
   catFunctions: "Fonsion",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "lista",
   textVariable: "test",
   httpRequestError: "A-i é staje un problema con l'arcesta.",

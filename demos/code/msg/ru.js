@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Цвет",
   catVariables: "Переменные",
   catFunctions: "Функции",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "список",
   textVariable: "текст",
   httpRequestError: "Произошла проблема при запросе.",

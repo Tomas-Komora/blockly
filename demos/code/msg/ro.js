@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Culoare",
   catVariables: "Variabile",
   catFunctions: "Funcții",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "listă",
   textVariable: "text",
   httpRequestError: "A apărut o problemă la solicitare.",

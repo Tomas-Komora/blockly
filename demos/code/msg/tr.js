@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Renk",
   catVariables: "Değişkenler",
   catFunctions: "İşlevler",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "liste",
   textVariable: "metin",
   httpRequestError: "İstek ile ilgili bir problem var.",

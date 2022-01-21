@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Cor",
   catVariables: "Variáveis",
   catFunctions: "Funções",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "lista",
   textVariable: "texto",
   httpRequestError: "Houve um problema com a requisição.",

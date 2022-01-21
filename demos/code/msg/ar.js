@@ -11,6 +11,7 @@ var MSG = {
   catLoops: "الحلقات",
   catMath: "رياضيات",
   catText: "نص",
+  catPetriflowBlocks: "Petriflow",
   catLists: "قوائم",
   catColour: "لون",
   catVariables: "متغيرات",

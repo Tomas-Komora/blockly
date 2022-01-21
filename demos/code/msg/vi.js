@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Màu",
   catVariables: "Biến",
   catFunctions: "Hàm",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "danh sách",
   textVariable: "văn bản",
   httpRequestError: "Hoạt động bị trục trặc, không thực hiện được yêu cầu của bạn.",

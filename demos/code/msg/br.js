@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Liv",
   catVariables: "Argemmennoù",
   catFunctions: "Arc'hwelioù",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "roll",
   textVariable: "testenn",
   httpRequestError: "Ur gudenn zo gant ar reked.",

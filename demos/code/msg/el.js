@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Χρώμα",
   catVariables: "Μεταβλητές",
   catFunctions: "Συναρτήσεις",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "λίστα",
   textVariable: "κείμενο",
   httpRequestError: "Υπήρξε πρόβλημα με το αίτημα.",

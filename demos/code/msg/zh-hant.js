@@ -15,6 +15,7 @@ var MSG = {
   catColour: "顏色",
   catVariables: "變量",
   catFunctions: "流程",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "列表",
   textVariable: "文字",
   httpRequestError: "命令出現錯誤。",

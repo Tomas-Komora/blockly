@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Warna",
   catVariables: "Pemboleh ubah",
   catFunctions: "Fungsi",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "senarai",
   textVariable: "teks",
   httpRequestError: "Permintaan itu terdapat masalah.",

@@ -15,6 +15,7 @@ var MSG = {
   catColour: "色",
   catVariables: "変数",
   catFunctions: "関数",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "リスト",
   textVariable: "テキスト",
   httpRequestError: "ネットワーク接続のエラーです。",

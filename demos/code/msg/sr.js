@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Боја",
   catVariables: "Променљиве",
   catFunctions: "Процедуре",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "списак",
   textVariable: "текст",
   httpRequestError: "Дошло је до проблема у захтеву.",

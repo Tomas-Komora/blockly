@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Színek",
   catVariables: "Változók",
   catFunctions: "Eljárások",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "lista",
   textVariable: "szöveg",
   httpRequestError: "A kéréssel kapcsolatban probléma merült fel.",

@@ -15,6 +15,7 @@ var MSG = {
   catColour: "rItlh",
   catVariables: "lIwmey",
   catFunctions: "mIwmey",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "tetlh",
   textVariable: "ghItlhHom",
   httpRequestError: "Qapbe' tlhobmeH QIn.",

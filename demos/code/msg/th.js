@@ -15,6 +15,7 @@ var MSG = {
   catColour: "สี",
   catVariables: "ตัวแปร",
   catFunctions: "ฟังก์ชัน",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "รายการ",
   textVariable: "ข้อความ",
   httpRequestError: "มีปัญหาเกี่ยวกับการร้องขอ",

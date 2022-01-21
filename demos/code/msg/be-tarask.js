@@ -13,6 +13,7 @@ var MSG = {
   catText: "Тэкст",
   catLists: "Сьпісы",
   catColour: "Колер",
+  catPetriflowBlocks: "Petriflow",
   catVariables: "Зьменныя",
   catFunctions: "Функцыі",
   listVariable: "сьпіс",

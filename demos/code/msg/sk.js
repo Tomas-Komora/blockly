@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Farby",
   catVariables: "Premenné",
   catFunctions: "Funkcie",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "zoznam",
   textVariable: "text",
   httpRequestError: "Problém so spracovaním požiadavky.",

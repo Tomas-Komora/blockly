@@ -14,6 +14,7 @@ var MSG = {
   catLists: "Seznamy",
   catColour: "Barva",
   catVariables: "Proměnné",
+  catPetriflowBlocks: "Petriflow",
   catFunctions: "Procedury",
   listVariable: "seznam",
   textVariable: "text",

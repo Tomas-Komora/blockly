@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Litir",
   catVariables: "Breytur",
   catFunctions: "Stefjur",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "listi",
   textVariable: "texti",
   httpRequestError: "Það kom upp vandamál með beiðnina.",

@@ -15,6 +15,7 @@ var MSG = {
   catColour: "رنگ",
   catVariables: "متغییرها",
   catFunctions: "توابع",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "فهرست",
   textVariable: "متن",
   httpRequestError: "مشکلی با درخواست وجود داشت.",

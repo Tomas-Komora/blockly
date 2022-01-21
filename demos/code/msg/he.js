@@ -15,6 +15,7 @@ var MSG = {
   catColour: "צבע",
   catVariables: "משתנים",
   catFunctions: "פונקציות",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "רשימה",
   textVariable: "טקסט",
   httpRequestError: "הבקשה נכשלה.",

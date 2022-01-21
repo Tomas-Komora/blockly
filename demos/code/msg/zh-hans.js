@@ -15,6 +15,7 @@ var MSG = {
   catColour: "颜色",
   catVariables: "变量",
   catFunctions: "函数",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "列表",
   textVariable: "文本",
   httpRequestError: "请求存在问题。",

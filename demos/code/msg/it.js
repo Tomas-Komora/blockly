@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Colore",
   catVariables: "Variabili",
   catFunctions: "Funzioni",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "elenco",
   textVariable: "testo",
   httpRequestError: "La richiesta non è stata soddisfatta.",

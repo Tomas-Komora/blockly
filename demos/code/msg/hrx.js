@@ -15,6 +15,7 @@ var MSG = {
   catColour: "Farreb",
   catVariables: "Variable",
   catFunctions: "Funktione",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "List",
   textVariable: "Text",
   httpRequestError: "Mit der Oonfroch hots en Problem geb.",

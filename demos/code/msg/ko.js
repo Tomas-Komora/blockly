@@ -15,6 +15,7 @@ var MSG = {
   catColour: "색",
   catVariables: "변수",
   catFunctions: "기능",
+  catPetriflowBlocks: "Petriflow",
   listVariable: "목록",
   textVariable: "텍스트",
   httpRequestError: "요청에 문제가 있습니다.",
