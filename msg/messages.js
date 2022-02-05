@@ -1652,3 +1652,5 @@ Blockly.Msg.IMPORT_JAR_TOOLTIP = 'Sets this variable to be equal to the input.';
 /// context menu - Selecting this creates a block to get (change) the value of
 /// this variable.\n\nParameters:\n* %1 - the name of the variable.
 Blockly.Msg.IMPORT_JAR_GET = 'Create "get %1"';
+
+

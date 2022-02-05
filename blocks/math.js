@@ -624,3 +624,4 @@ Blockly.Blocks['math_random_float'] = {
   },
   typeblock: Blockly.Msg.MATH_RANDOM_FLOAT_TYPEBLOCK
 };
+

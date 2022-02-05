@@ -434,6 +434,7 @@ Blockly.Java.provideVarClass = function() {
     Blockly.Java.addImport('java.util.Map');
     Blockly.Java.addImport('java.util.Objects');
 
+
     var VarCode = [
     '/**',
     ' *',

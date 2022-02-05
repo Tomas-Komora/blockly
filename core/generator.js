@@ -98,7 +98,7 @@ Blockly.Generator.prototype.workspaceToCode = function(workspace, parms) {
     if (stash !== '') {
       codearray.push(stash);
     }
-    if (goog.isArray(line)) {
+    if (Array.isArray(line)) {
       // Value blocks return tuples of code and operator order.
       // Top-level blocks don't care about operator order.
       line = line[0];
@@ -186,10 +186,10 @@ Blockly.Generator.prototype.blockToCode = function(block,parms,nostash) {
   if (!nostash) {
     stash = this.getStatementStash();
   }
-  if (goog.isArray(code)) {
+  if (Array.isArray(code)) {
     // Value blocks return tuples of code and operator order.
     return [this.scrub_(block, stash + code[0], parms), code[1]];
-  } else if (goog.isString(code)) {
+  } else if (typeof code == 'string') {
     if (this.STATEMENT_PREFIX) {
       code = this.STATEMENT_PREFIX.replace(/%1/g, '\'' + block.id + '\'') +
           code;

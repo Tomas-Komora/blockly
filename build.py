@@ -256,7 +256,7 @@ class Gen_compressed(threading.Thread):
   def do_compile(self, params, target_filename, filenames, remove):
     # Send the request to Google.
     headers = {"Content-type": "application/x-www-form-urlencoded"}
-    conn = httplib.HTTPConnection("closure-compiler.appspot.com")
+    conn = httplib.HTTPSConnection("closure-compiler.appspot.com")
     conn.request("POST", "/compile", urllib.urlencode(params), headers)
     response = conn.getresponse()
     json_str = response.read()
@@ -450,7 +450,7 @@ https://developers.google.com/blockly/hacking/closure""")
   try:
     opts, args = getopt.getopt(argv,"u",["uncompressed-only"])
   except getopt.GetoptError:
-    print 'build.py [--uncompressed-only]'
+    print ('build.py [--uncompressed-only]')
     sys.exit(2)
   for opt, arg in opts:
     if opt in ("-u", "--uncompressed-only"):

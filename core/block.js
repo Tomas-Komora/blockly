@@ -41,6 +41,10 @@ goog.require('goog.asserts');
 goog.require('goog.math.Coordinate');
 goog.require('goog.string');
 
+goog.require('goog.debug.ErrorHandler');
+goog.require('goog.events.EventWrapper');
+goog.require('goog.events.EventLike');
+
 
 /**
 * Class for one block.
@@ -157,7 +161,7 @@ Blockly.Block.prototype.fill = function(workspace, prototypeName) {
     goog.mixin(this, prototype);
   }
   // Call an initialization function, if it exists.
-  if (goog.isFunction(this.init)) {
+  if (typeof this.init == 'function') {
     this.init();
   }
   // Record initial inline state.
