@@ -314,3 +314,16 @@ Blockly.Java['def'] = function(block) {
     var code = 'def '+text_def_variable+' = '+value_name;
     return [code, Blockly.Java.ORDER_ATOMIC];
 };
+
+Blockly.Java['main_block'] = function(block) {
+    var n=0;
+    var argument;
+    var code ='';
+    var value_input = Blockly.Java.valueToCode(block, 'input', Blockly.Java.ORDER_ATOMIC);
+    code += value_input+'\n';
+    for (n = 0; n <= block.itemCount_; n++) {
+        argument = Blockly.Java.valueToCode(block, 'items' + n, Blockly.Java.ORDER_ATOMIC);
+        code += argument+'\n';
+    }
+    return code;
+};

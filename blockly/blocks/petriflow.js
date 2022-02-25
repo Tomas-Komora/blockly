@@ -646,7 +646,25 @@ Blockly.Blocks['def'] = {
             .appendField("def")
             .appendField(new Blockly.FieldTextInput("def variable"), "def_variable");
         this.setColour(120);
+        this.setOutput(true);
         this.setTooltip('');
-        this.setHelpUrl('http://www.example.com/');
+        this.setHelpUrl('https://petriflow.com/#/actions');
     }
+};
+
+
+
+Blockly.Blocks['main_block'] = {
+        init: function() {
+            this.appendValueInput('input')
+                .setCheck(null)
+                .appendField('public class MyApp{');
+            this.appendAddSubGroup('', 'items',null,'');
+            this.itemCount_ = 1;
+            this.updateShape_();
+            this.setInputsInline(false);
+            this.setHelpUrl('http://www.example.com/');
+            this.setColour(120);
+            this.setTooltip('');
+        }
 };
