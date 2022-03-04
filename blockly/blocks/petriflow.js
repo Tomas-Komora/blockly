@@ -16,7 +16,7 @@ Blockly.Blocks['block_assignrole'] = {
     init: function() {
         this.appendValueInput("roleID")
             .setCheck("String")
-            .appendField("Assign Role");
+            .appendField("Assign Role (String)");
         this.setOutput(true,'String');
         this.setColour(65);
         this.setTooltip('Assign role by roleID');
@@ -250,8 +250,9 @@ Blockly.Blocks['make'] = {
             .setCheck("Field")
             .appendField("make (field,");
         this.appendDummyInput()
-            .appendField("behaviour,")
-            .appendField(new Blockly.FieldDropdown([["visible", "visible"], ["editable", "editable"], ["required", "required"], ["optional", "optional"], ["hidden", "hidden"], ["forbidden", "forbidden"]]), "behaviour");
+            .appendField(", ")
+            .appendField(new Blockly.FieldDropdown([["visible", "visible"], ["editable", "editable"], ["required", "required"], ["optional", "optional"], ["hidden", "hidden"], ["forbidden", "forbidden"]]), "behaviour")
+            .appendField(" on ");
         this.appendValueInput("transition")
             .setCheck("Transition")
             .appendField("transition");
@@ -316,10 +317,10 @@ Blockly.Blocks['change_value'] = {
     init: function() {
         this.appendValueInput("field")
             .setCheck("Field")
-            .appendField("change(field,");
+            .appendField("change(field) value");
         this.appendValueInput("newValueClosure")
             .setCheck("Closure")
-            .appendField("            newValueClosure)");
+            .appendField("         (newValueClosure)");
         this.setOutput(true);
         this.setColour(65);
         this.setTooltip('Change value');
@@ -331,10 +332,10 @@ Blockly.Blocks['change_value_about'] = {
     init: function() {
         this.appendValueInput("field")
             .setCheck("Field")
-            .appendField("change(field,");
+            .appendField("change(field) about");
         this.appendValueInput("newValueClosure")
             .setCheck("Closure")
-            .appendField("            newValueClosure)");
+            .appendField("       (newValueClosure)");
         this.setOutput(true);
         this.setColour(65);
         this.setTooltip('Change about');
@@ -346,10 +347,10 @@ Blockly.Blocks['change_choices'] = {
     init: function() {
         this.appendValueInput("field")
             .setCheck("Field")
-            .appendField("change field choice");
+            .appendField("change (field) choices");
         this.appendValueInput("newValueClosure")
             .setCheck("Closure<List<String>|Set<String>>")
-            .appendField("            newValueClosure");
+            .appendField("            (newValueClosure)");
         this.setOutput(true);
         this.setColour(65);
         this.setTooltip('Change choices');
@@ -361,10 +362,10 @@ Blockly.Blocks['change_options'] = {
     init: function() {
         this.appendValueInput("field")
             .setCheck("Field")
-            .appendField("change field options");
+            .appendField("change (field) options");
         this.appendValueInput("newValueClosure")
             .setCheck("Closure<Map<String, String|I18NString>>")
-            .appendField("            newValueClosure");
+            .appendField("            (newValueClosure)");
         this.setOutput(true);
         this.setColour(65);
         this.setTooltip('Change options');
@@ -376,10 +377,10 @@ Blockly.Blocks['change_case_property'] = {
     init: function() {
         this.appendValueInput("property")
             .setCheck("String")
-            .appendField("changeCaseProperty");
+            .appendField("changeCaseProperty (property)");
         this.appendValueInput("newValueClosure")
             .setCheck("Field")
-            .appendField(" about  newValueClosure");
+            .appendField(" about  (newValueClosure)");
         this.setOutput(true);
         this.setColour(65);
         this.setTooltip('Change case property.');
@@ -391,7 +392,7 @@ Blockly.Blocks['findtask'] = {
     init: function() {
         this.appendValueInput("query")
             .setCheck("QueryDSL Predicate")
-            .appendField("findTask");
+            .appendField("findTask(query)");
         this.setOutput(true, "Task");
         this.setColour(65);
         this.setTooltip('Find task by query.');
@@ -403,7 +404,7 @@ Blockly.Blocks['findtasks'] = {
     init: function() {
         this.appendValueInput("query")
             .setCheck("QueryDSL Predicate")
-            .appendField("findTasks");
+            .appendField("findTasks(query)");
         this.setOutput(true, "List<Task>");
         this.setColour(65);
         this.setTooltip('Find tasks by query');
@@ -467,13 +468,13 @@ Blockly.Blocks['execute'] = {
     init: function() {
         this.appendValueInput("transitionID")
             .setCheck("String")
-            .appendField("execute transitionId,");
+            .appendField("execute (transitionId),");
         this.appendValueInput("query")
             .setCheck("QueryDSL Predicate")
-            .appendField("where query");
+            .appendField("where (query)");
         this.appendValueInput("data")
             .setCheck("Map<String,Object>")
-            .appendField("with data");
+            .appendField("with (data)");
         this.setOutput(true);
         this.setColour(65);
         this.setTooltip('Execute.');
@@ -644,7 +645,8 @@ Blockly.Blocks['def'] = {
     init: function() {
         this.appendValueInput("NAME")
             .appendField("def")
-            .appendField(new Blockly.FieldTextInput("def variable"), "def_variable");
+            .appendField(new Blockly.FieldTextInput("def variable"), "def_variable")
+            .appendField("=");
         this.setColour(120);
         this.setOutput(true);
         this.setTooltip('');

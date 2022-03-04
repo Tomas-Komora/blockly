@@ -286,25 +286,25 @@ Blockly.Java['variable_pageable'] = function(block) {
 
 Blockly.Java['variable_closure_boolean'] = function(block) {
     var text_closure_boolean_input = block.getFieldValue('Closure<Boolean>input');
-    var code= text_closure_boolean_input;
+    var code= "{ " + text_closure_boolean_input + " }";
     return [code, Blockly.Java.ORDER_ATOMIC];
 };
 
 Blockly.Java['variable_closure'] = function(block) {
     var text_closure = block.getFieldValue('Closure');
-    var code= text_closure;
+    var code= "{ " + text_closure + " }";
     return [code, Blockly.Java.ORDER_ATOMIC];
 };
 
 Blockly.Java['variable_closure_list_string_set_string'] = function(block) {
     var text_closure_list_string_set_string = block.getFieldValue('Closure<List<String>Set<String');
-    var code= text_closure_list_string_set_string;
+    var code= "{ " + text_closure_list_string_set_string + " }";
     return [code, Blockly.Java.ORDER_ATOMIC];
 };
 
 Blockly.Java['variable_closure_map_string_string_i18nstring'] = function(block) {
     var text_input_closure = block.getFieldValue('input_closure');
-    var code= text_input_closure;
+    var code= "{ " +text_input_closure + " }";
     return [code, Blockly.Java.ORDER_ATOMIC];
 };
 
