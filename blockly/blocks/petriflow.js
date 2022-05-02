@@ -665,8 +665,8 @@ Blockly.Blocks['main_block'] = {
             this.itemCount_ = 1;
             this.updateShape_();
             this.setInputsInline(false);
-            this.setHelpUrl('http://www.example.com/');
+            this.setHelpUrl('');
             this.setColour(120);
-            this.setTooltip('');
+            this.setTooltip('Main blok');
         }
 };
